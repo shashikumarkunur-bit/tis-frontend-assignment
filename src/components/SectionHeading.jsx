@@ -20,8 +20,8 @@ export default function SectionHeading({
       className={`max-w-3xl ${isCenter ? 'mx-auto text-center' : 'text-left'} ${className}`}
     >
       {eyebrow && (
-        <div className={`inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase mb-3 bg-[#b90124]/10 text-[#b90124] border border-[#b90124]/20`}>
-          <span className="w-1.5 h-1.5 rounded-full bg-[#b90124] animate-pulse" />
+        <div className={`inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase mb-3 bg-[#fff1b8]/70 text-[#b90124] border border-[#b90124]/20`}>
+          <span className="w-1.5 h-1.5 rounded-full bg-[#fff1b8] animate-pulse" />
           {eyebrow}
         </div>
       )}

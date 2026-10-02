@@ -111,7 +111,7 @@ export default function Contact() {
             {/* Campus Address Card */}
             <div className="p-6 rounded-3xl bg-[#f8f5f0] border border-neutral-200/80">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-2xl bg-[#b90124] text-white flex items-center justify-center shrink-0 shadow-sm">
+                <div className="w-12 h-12 rounded-2xl bg-[#fff1b8] text-[#1c1c1c] flex items-center justify-center shrink-0 shadow-sm">
                   <FiMapPin className="text-xl" />
                 </div>
                 <div>
@@ -347,7 +347,7 @@ export default function Contact() {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full py-4 rounded-xl text-white bg-gradient-to-r from-[#b90124] to-[#8c001a] hover:from-[#d62249] hover:to-[#b90124] font-bold text-xs sm:text-sm uppercase tracking-wider shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2 disabled:opacity-75 disabled:cursor-not-allowed"
+                    className="w-full py-4 rounded-xl text-[#1c1c1c] bg-gradient-to-r from-[#fff1b8] to-[#ffe58a] hover:from-[#ffeb99] hover:to-[#ffdf70] font-bold text-xs sm:text-sm uppercase tracking-wider shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2 disabled:opacity-75 disabled:cursor-not-allowed"
                   >
                     {isSubmitting ? (
                       <span>Sending Your Enquiry...</span>

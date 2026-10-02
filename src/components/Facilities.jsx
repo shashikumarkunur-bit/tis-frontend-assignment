@@ -44,7 +44,7 @@ export default function Facilities() {
 
             <div className="relative h-full p-6 sm:p-8 flex flex-col justify-between text-white z-10">
               <div className="flex items-center justify-between">
-                <span className="px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[#b90124] text-white shadow-md">
+                <span className="px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[#fff1b8] text-[#1c1c1c] shadow-md">
                   {tisFacilities[0].category}
                 </span>
                 <span className="px-3 py-1 rounded-full text-xs font-semibold bg-white/20 backdrop-blur-md border border-white/30 text-white">
@@ -195,7 +195,7 @@ export default function Facilities() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
             <div className="relative h-full p-6 flex flex-col justify-between text-white z-10">
-              <span className="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-[#b90124] text-white w-fit">
+              <span className="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-[#fff1b8] text-[#1c1c1c] w-fit">
                 {tisFacilities[5].tag}
               </span>
               <div>

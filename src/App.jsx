@@ -14,7 +14,7 @@ import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <div className="relative min-h-screen bg-[#faf9f6] text-[#1c1c1c] selection:bg-[#b90124] selection:text-white">
+    <div className="relative min-h-screen bg-[#faf9f6] text-[#1c1c1c] selection:bg-[#fff1b8] selection:text-[#1c1c1c]">
       {/* Mandatory Advanced Feature 3: Scroll Progress Bar */}
       <ScrollProgress />
 

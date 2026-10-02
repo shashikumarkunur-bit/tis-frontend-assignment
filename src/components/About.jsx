@@ -20,7 +20,7 @@ export default function About() {
     >
       {/* Background design elements */}
       <div className="absolute top-10 right-0 w-80 h-80 bg-[#c09d59]/5 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute -bottom-10 left-10 w-96 h-96 bg-[#b90124]/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute -bottom-10 left-10 w-96 h-96 bg-[#fff1b8]/15 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
@@ -53,11 +53,11 @@ export default function About() {
               </div>
 
               {/* Offset Badge Card */}
-              <div className="absolute -bottom-6 -right-4 sm:-bottom-8 sm:-right-8 bg-[#b90124] text-white p-5 sm:p-6 rounded-2xl shadow-xl max-w-[210px] sm:max-w-[240px]">
-                <p className="font-display font-extrabold text-3xl sm:text-4xl text-amber-200">
-                  14+ <span className="text-xl font-normal text-white">Years</span>
+              <div className="absolute -bottom-6 -right-4 sm:-bottom-8 sm:-right-8 bg-[#fff1b8] text-[#1c1c1c] p-5 sm:p-6 rounded-2xl shadow-xl max-w-[210px] sm:max-w-[240px]">
+                <p className="font-display font-extrabold text-3xl sm:text-4xl text-[#8c001a]">
+                  14+ <span className="text-xl font-normal text-[#1c1c1c]">Years</span>
                 </p>
-                <p className="text-xs sm:text-sm font-medium text-white/90 mt-1 leading-tight">
+                <p className="text-xs sm:text-sm font-medium text-neutral-700 mt-1 leading-tight">
                   Of educational prestige & holistic character building
                 </p>
               </div>
@@ -73,8 +73,8 @@ export default function About() {
             className="lg:col-span-7 flex flex-col text-left"
           >
             {/* Small Eyebrow Heading */}
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold tracking-wider uppercase bg-[#b90124]/10 text-[#b90124] border border-[#b90124]/20 w-fit mb-4">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#b90124]" />
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold tracking-wider uppercase bg-[#fff1b8]/70 text-[#b90124] border border-[#b90124]/20 w-fit mb-4">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#fff1b8]" />
               About Tulas International School
             </div>
 
@@ -116,7 +116,7 @@ export default function About() {
             <div className="mt-8">
               <a
                 href="#academics"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-white bg-[#b90124] hover:bg-[#8c001a] font-bold text-xs uppercase tracking-wider shadow-md hover:shadow-lg transition-all duration-300"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-[#1c1c1c] bg-[#fff1b8] hover:bg-[#ffeb99] font-bold text-xs uppercase tracking-wider shadow-md hover:shadow-lg transition-all duration-300"
               >
                 Explore Academic Programs
                 <FiArrowRight className="text-base" />
@@ -141,7 +141,7 @@ export default function About() {
                 variants={fadeUp}
                 className="p-6 rounded-2xl bg-[#f8f5f0] border border-neutral-200/60 hover:border-[#b90124]/30 hover:shadow-lg transition-all duration-300 group"
               >
-                <div className="w-12 h-12 rounded-xl bg-white text-[#b90124] shadow-xs flex items-center justify-center mb-4 group-hover:bg-[#b90124] group-hover:text-white transition-colors duration-300">
+                <div className="w-12 h-12 rounded-xl bg-white text-[#b90124] shadow-xs flex items-center justify-center mb-4 group-hover:bg-[#fff1b8] group-hover:text-[#1c1c1c] transition-colors duration-300">
                   <IconComponent className="text-2xl" />
                 </div>
                 <div className="flex items-baseline gap-1">

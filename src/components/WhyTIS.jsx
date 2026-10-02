@@ -27,7 +27,7 @@ export default function WhyTIS() {
       aria-label="Why Choose Tulas International School"
     >
       {/* Decorative background shapes */}
-      <div className="absolute -top-24 -left-24 w-96 h-96 bg-[#b90124]/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute -top-24 -left-24 w-96 h-96 bg-[#fff1b8]/15 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-[#c09d59]/10 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -58,7 +58,7 @@ export default function WhyTIS() {
               >
                 <div>
                   <div className="flex items-center justify-between mb-6">
-                    <div className="w-14 h-14 rounded-2xl bg-[#b90124]/10 text-[#b90124] flex items-center justify-center group-hover:bg-[#b90124] group-hover:text-white transition-colors duration-300 shadow-xs">
+                    <div className="w-14 h-14 rounded-2xl bg-[#fff1b8]/70 text-[#b90124] flex items-center justify-center group-hover:bg-[#fff1b8] group-hover:text-[#1c1c1c] transition-colors duration-300 shadow-xs">
                       <IconComponent className="text-2xl" />
                     </div>
                     <span className="text-xs font-bold text-neutral-400 font-display">
@@ -83,7 +83,7 @@ export default function WhyTIS() {
                   <span className="group-hover:text-[#b90124] transition-colors">
                     The Modern Gurukul Promise
                   </span>
-                  <div className="w-2 h-2 rounded-full bg-[#b90124]/20 group-hover:bg-[#b90124] transition-colors" />
+                  <div className="w-2 h-2 rounded-full bg-[#fff1b8]/70 group-hover:bg-[#fff1b8] transition-colors" />
                 </div>
               </motion.div>
             );

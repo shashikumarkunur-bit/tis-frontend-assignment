@@ -67,7 +67,7 @@ export default function Academics() {
                   <ul className="mt-4 pt-4 border-t border-neutral-100 space-y-1.5" aria-label="Key highlights">
                     {program.highlights.map((highlight, idx) => (
                       <li key={idx} className="flex items-center gap-2 text-xs font-medium text-neutral-700">
-                        <span className="w-1.5 h-1.5 rounded-full bg-[#b90124]" />
+                        <span className="w-1.5 h-1.5 rounded-full bg-[#fff1b8]" />
                         <span>{highlight}</span>
                       </li>
                     ))}
@@ -107,7 +107,7 @@ export default function Academics() {
           </div>
           <a
             href="#contact"
-            className="px-5 py-2.5 rounded-full bg-[#1c1c1c] hover:bg-[#b90124] text-white text-xs font-bold uppercase tracking-wider transition-colors shrink-0 shadow-xs"
+            className="px-5 py-2.5 rounded-full bg-[#1c1c1c] hover:bg-[#fff1b8] hover:text-[#1c1c1c] text-white text-xs font-bold uppercase tracking-wider transition-colors shrink-0 shadow-xs"
           >
             Download Syllabus
           </a>

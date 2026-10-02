@@ -24,12 +24,12 @@ export default function Activities() {
       aria-label="Life at Tulas International School"
     >
       {/* Background ambient lighting */}
-      <div className="absolute top-0 right-1/4 w-96 h-96 bg-[#b90124]/20 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-0 right-1/4 w-96 h-96 bg-[#fff1b8]/15 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-[#60bab1]/15 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase mb-3 bg-[#b90124]/20 text-[#ff8093] border border-[#b90124]/40">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase mb-3 bg-[#fff1b8]/15 text-[#ffdf78] border border-[#fff1b8]/30">
             <span className="w-1.5 h-1.5 rounded-full bg-[#ff8093] animate-pulse" />
             Beyond Academics
           </div>
@@ -51,7 +51,7 @@ export default function Activities() {
               onClick={() => setActiveTab(tab)}
               className={`px-4 sm:px-5 py-2 rounded-full text-xs sm:text-sm font-bold uppercase tracking-wider transition-all duration-200 ${
                 activeTab === tab
-                  ? 'bg-[#b90124] text-white shadow-lg shadow-[#b90124]/30 scale-105'
+                  ? 'bg-[#fff1b8] text-[#1c1c1c] shadow-lg shadow-[#fff1b8]/20 scale-105'
                   : 'bg-white/10 hover:bg-white/20 text-neutral-300 hover:text-white border border-white/10'
               }`}
               role="tab"

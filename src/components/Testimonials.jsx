@@ -123,7 +123,7 @@ export default function Testimonials() {
                   onClick={() => setCurrentIndex(idx)}
                   className={`transition-all duration-300 rounded-full ${
                     idx === currentIndex
-                      ? 'w-8 h-2.5 bg-[#b90124]'
+                      ? 'w-8 h-2.5 bg-[#fff1b8]'
                       : 'w-2.5 h-2.5 bg-neutral-300 hover:bg-neutral-400'
                   }`}
                   aria-label={`Go to slide ${idx + 1}`}
@@ -135,14 +135,14 @@ export default function Testimonials() {
             <div className="flex items-center gap-2">
               <button
                 onClick={prevTestimonial}
-                className="w-11 h-11 rounded-full bg-white border border-neutral-200 text-neutral-700 hover:bg-[#b90124] hover:text-white hover:border-[#b90124] flex items-center justify-center transition-all duration-200 shadow-xs focus:outline-none focus:ring-2 focus:ring-[#b90124]"
+                className="w-11 h-11 rounded-full bg-white border border-neutral-200 text-neutral-700 hover:bg-[#fff1b8] hover:text-[#1c1c1c] hover:border-[#b90124] flex items-center justify-center transition-all duration-200 shadow-xs focus:outline-none focus:ring-2 focus:ring-[#b90124]"
                 aria-label="Previous testimonial"
               >
                 <FiChevronLeft size={20} />
               </button>
               <button
                 onClick={nextTestimonial}
-                className="w-11 h-11 rounded-full bg-white border border-neutral-200 text-neutral-700 hover:bg-[#b90124] hover:text-white hover:border-[#b90124] flex items-center justify-center transition-all duration-200 shadow-xs focus:outline-none focus:ring-2 focus:ring-[#b90124]"
+                className="w-11 h-11 rounded-full bg-white border border-neutral-200 text-neutral-700 hover:bg-[#fff1b8] hover:text-[#1c1c1c] hover:border-[#b90124] flex items-center justify-center transition-all duration-200 shadow-xs focus:outline-none focus:ring-2 focus:ring-[#b90124]"
                 aria-label="Next testimonial"
               >
                 <FiChevronRight size={20} />

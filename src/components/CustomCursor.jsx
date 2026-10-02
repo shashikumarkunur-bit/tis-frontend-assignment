@@ -76,7 +76,7 @@ export default function CustomCursor() {
           width: isPointer ? 44 : isText ? 24 : 32,
           height: isPointer ? 44 : isText ? 36 : 32,
           borderColor: isPointer ? '#b90124' : 'rgba(192, 157, 89, 0.65)',
-          backgroundColor: isPointer ? 'rgba(185, 1, 36, 0.08)' : 'rgba(192, 157, 89, 0.04)',
+          backgroundColor: isPointer ? 'rgba(255, 241, 184, 0.22)' : 'rgba(192, 157, 89, 0.04)',
           borderRadius: isText ? '4px' : '9999px',
           transition: 'width 0.2s ease, height 0.2s ease, border-color 0.2s ease, background-color 0.2s ease'
         }}
@@ -92,7 +92,7 @@ export default function CustomCursor() {
           translateY: '-50%',
           width: isPointer ? 8 : isText ? 2 : 6,
           height: isPointer ? 8 : isText ? 18 : 6,
-          backgroundColor: isPointer ? '#b90124' : '#1c1c1c',
+          backgroundColor: isPointer ? '#fff1b8' : '#1c1c1c',
           borderRadius: isText ? '1px' : '9999px',
           transition: 'width 0.2s ease, height 0.2s ease, background-color 0.2s ease'
         }}

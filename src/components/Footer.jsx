@@ -61,7 +61,7 @@ export default function Footer() {
                       href={item.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#b90124] text-neutral-300 hover:text-white flex items-center justify-center transition-all duration-200"
+                      className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#fff1b8] text-neutral-300 hover:text-[#1c1c1c] flex items-center justify-center transition-all duration-200"
                       aria-label={`TIS on ${item.label}`}
                     >
                       <Icon className="text-sm" />
@@ -193,7 +193,7 @@ export default function Footer() {
             </span>
             <button
               onClick={scrollToTop}
-              className="p-2.5 rounded-full bg-white/10 hover:bg-[#b90124] text-white transition-colors flex items-center gap-1.5 focus:outline-none focus:ring-2 focus:ring-[#b90124]"
+              className="p-2.5 rounded-full bg-white/10 hover:bg-[#fff1b8] text-white hover:text-[#1c1c1c] transition-colors flex items-center gap-1.5 focus:outline-none focus:ring-2 focus:ring-[#b90124]"
               aria-label="Scroll to top of page"
             >
               <FiArrowUp size={16} />

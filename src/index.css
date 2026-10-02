@@ -99,7 +99,7 @@
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #b90124;
+  background: #fff1b8;
 }
 
 /* Badge and gradient text */
@@ -117,6 +117,6 @@
 
 /* Subtle pattern background */
 .bg-subtle-grid {
-  background-image: radial-gradient(rgba(185, 1, 36, 0.07) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(255, 241, 184, 0.2) 1px, transparent 1px);
   background-size: 24px 24px;
 }

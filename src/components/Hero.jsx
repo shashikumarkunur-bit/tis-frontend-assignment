@@ -11,7 +11,7 @@ export default function Hero() {
       aria-label="Tulas International School Hero"
     >
       {/* Decorative ambient background glows */}
-      <div className="absolute top-1/4 -left-48 w-96 h-96 bg-[#b90124]/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-1/4 -left-48 w-96 h-96 bg-[#fff1b8]/20 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-10 -right-48 w-[28rem] h-[28rem] bg-[#c09d59]/15 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute top-1/3 right-1/4 w-72 h-72 bg-[#60bab1]/10 rounded-full blur-3xl pointer-events-none" />
 
@@ -33,8 +33,8 @@ export default function Hero() {
               className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/90 border border-[#b90124]/20 shadow-xs mb-6 backdrop-blur-md"
             >
               <span className="flex h-2 w-2 relative">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#b90124] opacity-75" />
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-[#b90124]" />
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#fff1b8] opacity-75" />
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-[#fff1b8]" />
               </span>
               <span className="text-xs font-bold uppercase tracking-wider text-[#b90124]">
                 Tulas International School • Dehradun
@@ -83,7 +83,7 @@ export default function Hero() {
             >
               <a
                 href="#admissions-cta"
-                className="w-full sm:w-auto px-8 py-4 rounded-full text-white bg-gradient-to-r from-[#b90124] to-[#8c001a] hover:from-[#d62249] hover:to-[#b90124] text-sm sm:text-base font-bold uppercase tracking-wider shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 flex items-center justify-center gap-2 group"
+                className="w-full sm:w-auto px-8 py-4 rounded-full text-[#214628] bg-gradient-to-r from-[#c9edc1] to-[#b5e3aa] hover:from-[#b5e3aa] hover:to-[#a4d996] text-sm sm:text-base font-bold uppercase tracking-wider shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 flex items-center justify-center gap-2 group"
               >
                 Apply Now 2026-27
                 <FiArrowRight className="text-lg transition-transform duration-300 group-hover:translate-x-1" />
@@ -139,7 +139,7 @@ export default function Hero() {
                 
                 {/* Image Overlay Banner */}
                 <div className="absolute bottom-5 left-5 right-5 text-white">
-                  <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-[#b90124] text-[11px] font-bold uppercase tracking-wider mb-1.5">
+                  <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-[#fff1b8] text-[#1c1c1c] text-[11px] font-bold uppercase tracking-wider mb-1.5">
                     Dehradun Foothills
                   </div>
                   <p className="font-display font-bold text-xl sm:text-2xl leading-tight">
@@ -162,8 +162,8 @@ export default function Hero() {
               }}
               className="absolute -top-6 -right-3 sm:-right-6 glass-card p-3.5 sm:p-4 rounded-2xl shadow-xl flex items-center gap-3 border border-white/80 max-w-[200px] sm:max-w-[230px]"
             >
-              <div className="w-11 h-11 rounded-xl bg-[#b90124] text-white flex items-center justify-center shrink-0 shadow-md">
-                <FiAward className="text-xl text-amber-200" />
+              <div className="w-11 h-11 rounded-xl bg-[#fff1b8] text-[#1c1c1c] flex items-center justify-center shrink-0 shadow-md">
+                <FiAward className="text-xl text-[#8c001a]" />
               </div>
               <div>
                 <p className="text-xs font-bold text-[#b90124] uppercase tracking-wide">Ranked #1</p>

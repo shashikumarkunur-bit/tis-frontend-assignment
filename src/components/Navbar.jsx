@@ -51,15 +51,15 @@ export default function Navbar() {
     <>
       <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
         {/* Top announcement / helpline bar */}
-        <div className={`transition-all duration-300 overflow-hidden ${isScrolled ? 'h-0 opacity-0' : 'h-8 sm:h-9 bg-[#b90124] text-white opacity-100'}`}>
+        <div className={`transition-all duration-300 overflow-hidden ${isScrolled ? 'h-0 opacity-0' : 'h-8 sm:h-9 bg-[#fff1b8] text-[#1c1c1c] opacity-100'}`}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between text-xs sm:text-sm font-medium">
             <div className="flex items-center gap-4">
-              <span className="flex items-center gap-1.5 text-amber-200">
+              <span className="flex items-center gap-1.5 text-[#8c001a]">
                 <span className="inline-block w-2 h-2 rounded-full bg-amber-300 animate-ping" />
                 Admissions Open 2026-27 (Class IV - XII)
               </span>
-              <span className="hidden md:inline text-neutral-300">|</span>
-              <span className="hidden md:inline text-white/90">Ranked #1 Boarding School in Dehradun</span>
+              <span className="hidden md:inline text-neutral-500">|</span>
+              <span className="hidden md:inline text-neutral-700">Ranked #1 Boarding School in Dehradun</span>
             </div>
             <div className="flex items-center gap-4">
               <a
@@ -119,7 +119,7 @@ export default function Navbar() {
                   className="relative px-3 py-2 text-sm font-semibold text-neutral-700 hover:text-[#b90124] transition-colors rounded-md group"
                 >
                   {link.label}
-                  <span className="absolute bottom-0.5 left-3 right-3 h-[2px] bg-[#b90124] scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-200" />
+                  <span className="absolute bottom-0.5 left-3 right-3 h-[2px] bg-[#fff1b8] scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-200" />
                 </a>
               ))}
             </div>
@@ -128,13 +128,13 @@ export default function Navbar() {
             <div className="hidden lg:flex items-center gap-3">
               <a
                 href="#contact"
-                className="px-4 py-2 text-xs font-bold uppercase tracking-wider text-[#b90124] hover:bg-[#b90124]/10 rounded-full border border-[#b90124]/30 transition-all duration-200"
+                className="px-4 py-2 text-xs font-bold uppercase tracking-wider text-[#b90124] hover:bg-[#fff1b8]/70 rounded-full border border-[#b90124]/30 transition-all duration-200"
               >
                 Enquire
               </a>
               <a
                 href="#admissions-cta"
-                className="px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-gradient-to-r from-[#b90124] to-[#8c001a] hover:from-[#d62249] hover:to-[#b90124] rounded-full shadow-md hover:shadow-lg transition-all duration-300 flex items-center gap-1.5 transform hover:-translate-y-0.5"
+                className="px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-[#214628] bg-gradient-to-r from-[#c9edc1] to-[#b5e3aa] hover:from-[#b5e3aa] hover:to-[#a4d996] rounded-full shadow-md hover:shadow-lg transition-all duration-300 flex items-center gap-1.5 transform hover:-translate-y-0.5"
               >
                 Apply Now
                 <FiArrowRight className="text-sm" />
@@ -145,7 +145,7 @@ export default function Navbar() {
             <div className="flex items-center gap-2 lg:hidden">
               <a
                 href="#admissions-cta"
-                className="px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider text-white bg-[#b90124] rounded-full shadow-sm"
+                className="px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider text-[#214628] bg-[#bfe8b6] rounded-full shadow-sm"
               >
                 Apply
               </a>
@@ -217,7 +217,7 @@ export default function Navbar() {
                 <a
                   href="#admissions-cta"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="w-full py-3 bg-[#b90124] text-white font-bold rounded-xl text-center block shadow-md hover:bg-[#8c001a] transition-colors"
+                  className="w-full py-3 bg-[#bfe8b6] text-[#214628] font-bold rounded-xl text-center block shadow-md hover:bg-[#a8d99d] transition-colors"
                 >
                   Apply Now 2026-27
                 </a>

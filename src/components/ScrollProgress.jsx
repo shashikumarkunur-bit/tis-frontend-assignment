@@ -15,7 +15,7 @@ export default function ScrollProgress() {
       aria-label="Page scroll progress"
     >
       <motion.div
-        className="h-full bg-gradient-to-r from-[#b90124] via-[#c09d59] to-[#60bab1] origin-left"
+        className="h-full bg-gradient-to-r from-[#fff1b8] via-[#c09d59] to-[#60bab1] origin-left"
         style={{ scaleX }}
       />
     </div>
